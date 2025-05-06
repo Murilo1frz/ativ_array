@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro de Alunos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background">
+    <div class="container">
+      <h1 class="title">Cadastro de Alunos</h1>
+
+      <div class="areaInput">
+        <input type="text" id="nome" class="input" placeholder="Nome do aluno" />
+        <input type="number" id="idade" class="input" placeholder="Idade" />
+        <input type="text" id="curso" class="input" placeholder="Curso" />
+        <button class="button add" onclick="adicionarAluno()">Adicionar Aluno</button>
+      </div>
+
+      <h2 class="list-title">Lista de Alunos</h2>
+      <div id="listaAlunos"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
